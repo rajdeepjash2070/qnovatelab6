@@ -1,0 +1,9 @@
+.container a{
+    text-decoration: none;
+}
+.container{
+    font-size: 18px;
+}
+.container .mb-3{
+    font-weight: 600;
+}
