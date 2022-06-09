@@ -1,0 +1,28 @@
+.registration-form{
+    background-color: white;
+   
+    font-size: 23px;
+  }
+  .teacher-form input{
+    font-size: 20px;
+  
+   
+  }
+  .teacher-form button{
+      font-size: 25px;
+  }
+  .side-img {
+    margin: 4% 5% 0 0;
+    overflow: hidden;
+  }
+  
+  .side-img img {
+    margin: 4% 5% 0 0;
+   width: 100%;
+    height: 80%;
+    max-width: 100%;
+    display: block;
+  }
+  .contactus-form{
+    font-family: Arial, Helvetica, sans-serif;
+  }

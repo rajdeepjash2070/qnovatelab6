@@ -89,16 +89,17 @@ function App() {
     
     }
   */
+
   const [inputs, setInputs] = useState({
     firstname: "",
     pname: "",
     contactnumber: "",
     email: "",
     password: "",
-    course: "",
-    coursemode: "",
+    course: [],
+    coursemode: [],
     age: "",
-    yclass: "",
+    yclass: [],
     schoolcollegename: "",
     city: "",
     pincode: "",
@@ -150,6 +151,7 @@ function App() {
     <Navbar/>
       <div className="register overlay">
         <form
+       
           onSubmit={handleSubmit}
           className="row g-3 box-cen"
           style={{ margin: "2% auto 2% auto" }}
@@ -187,7 +189,7 @@ function App() {
             <label for="inputState" className="form-label">
               COURSE
             </label>
-            <select id="inputState" className="form-select" value={inputs.course} onChange={handleChange} name="course">
+            <select id="inputState" className="form-select" name="course" value={inputs.course} onChange={handleChange} >
               <option selected>Embedded System Robotics</option>
               <option>Artificial intelligence and Machine Learning</option>
               <option>Data Science</option>
@@ -198,10 +200,10 @@ function App() {
             </select>
           </div>
           <div className="col-md-6">
-            <label for="inputState" className="form-label" value={inputs.coursemode} onChange={handleChange} name="coursemode">
+            <label for="inputState" className="form-label">
               Choose Course Mode
             </label>
-            <select id="inputState" className="form-select">
+            <select value={inputs.coursemode} onChange={handleChange} name="coursemode" id="inputState" className="form-select" >
               <option selected>Online</option>
               <option>Offline</option>
             </select>

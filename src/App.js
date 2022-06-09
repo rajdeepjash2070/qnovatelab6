@@ -7,6 +7,8 @@ import About from "./Components/About"
 import Ourprograms from "./Components/Ourprograms";
 import Booksession from "./Components/Bookyourfreesession"
 import Blog from "./Components/Blog";
+import Registration from "./Components/Registration";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
    <Route path="/ourprograms" element={<Ourprograms/>}/>
    <Route path="/bookyourfreesession" element={<Booksession/>}/>
    <Route path="/blog" element={<Blog/>}/>
+   <Route path="/collaborate" element={<Registration/>}/>
     </Routes>
     </div>
   );
