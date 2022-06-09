@@ -29,7 +29,7 @@ import Physicalattention from "./physicalattention.png"
 import Kit from "./kit.png"
 import Certificate from "./certificate.png"
 import Footer from './Footer'
-
+import Registernowimg from "./registernow.webp"
 const Home = () => {
 
     const offerstyle={
@@ -97,7 +97,7 @@ const Home = () => {
     </div>
     </div>
     <div className='courses' style={{marginTop:"50px"}} >
-    <h1 className='text-center' style={{color:"rgb(103, 0, 199)"}}>Our Courses</h1>
+    <h1 className='text-center' style={{color:"#7800af"}}>Our Programs</h1>
     <div class="row">
 		<div class="col-md-3">
    
@@ -108,27 +108,19 @@ const Home = () => {
    <div class="profile-card-2"><img src={EmbedRobotics} class="img img-responsive"/>
        <div class="profile-name">Learn Embedded System Robotics</div>
        
-       <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+       
   
 </div>
     </a>
 </div>
-<div class="col-md-3">
-   
-   
-    <div class="profile-card-2"><img src={Blockchain} class="img img-responsive"/>
-        <div class="profile-name">Learn Blockchain</div>
-        
-        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
-    </div>
-</div>
+
 <div class="col-md-3">
    
    
     <div class="profile-card-2"><img src={Coding} class="img img-responsive"/>
         <div class="profile-name">Learn Programming Languages</div>
         
-        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+        
     </div>
 </div>
 <div class="col-md-3">
@@ -137,44 +129,28 @@ const Home = () => {
     <div class="profile-card-2"><img src={Iot} class="img img-responsive"/>
         <div class="profile-name"> Learn Internet of Things(IOT)</div>
         
-        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+        
     </div>
 </div>
-<div class="col-md-4">
+<div class="col-md-3">
    
    
     <div class="profile-card-2"><img src={Ai} class="img img-responsive"/>
         <div class="profile-name">Learn Artificial intelligence and Machine Learning</div>
         
-        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
-    </div>
-</div>
-<div class="col-md-4">
-   
-   
-    <div class="profile-card-2"><img src={Autocad} class="img img-responsive"/>
-        <div class="profile-name">Learn Design Software AutoDesk</div>
         
-        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
     </div>
 </div>
-<div class="col-md-4">
-   
-   
-    <div class="profile-card-2"><img src={Datascience} class="img img-responsive"/>
-        <div class="profile-name">Learn Embedded System Robotics</div>
-        
-        <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
-    </div>
-</div>
+
+
    </div>
   
  </div>
 <h1 style={{color:"#7800af"}} className="text-center">What We Offer</h1>
-<h4 style={{color:"#7800af"}} className="text-center">QNOVATE Labs offers an integrated Science, Technology, Engineering and Math (STEM) program based on future technology for school segment 
+<h5 style={{color:"black"}} className="text-center">QNOVATE Labs offers an integrated Science, Technology, Engineering and Math (STEM) program based on future technology for school segment 
 that focus  on technical-world. Also, we are providing physical contact with students, 
 so that students can learn problem-solving strategies and project-based learning. QNOVATE Labs providing an immersive learning experience. 
-</h4>
+</h5>
 <div className='offer row'>
 <div className='col-sm-4'>
 <div class="card" style={{width:"20rem"}}>
@@ -304,7 +280,7 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 </div>
-<div className='kids-learn text-center'>
+<div className='kids-learn kids-bg text-center'>
 <h3>Your Kids will Learn</h3>
 <h1 style={{color:"#4200ad"}}>Your Child will Learn</h1>
 <div className='row'>
@@ -381,7 +357,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 <div className='our-educators row'>
 <div className='col-md-6'><img className="img-fluid" src={Oureducators}/></div>
-<div className='col-md-6 our-educators-text' style={{color:"rgb(80, 0, 172)"}}><h1>Our Educators</h1>
+<div className='col-md-6 our-educators-text' style={{color:"rgb(80, 0, 172)"}}><h1>Our Expert </h1>
 <h5>QNOVATE Labs follows 4-Step Selection Process for confirming teacher.
  Also, our all the teachers are STEM certified. so your children are taught by the top industrial experts. </h5>
  <button type="button" class="btn"><i class="fa-solid fa-rocket-launch"></i>Book Your Free Session Now</button>
@@ -407,6 +383,14 @@ and Experiential Learning have also garnered significant attention from the glob
 </div>
 </div>
 
+</div>
+<div className='row'>
+<div className='col-md-6'><img src={Registernowimg}/></div>
+<div className='col-md-6 registernow' style={{marginTop:"40px"}}>
+<h3 className='text-center'>Would you like to corporate collaboration with QNOVATE Labs ?</h3>
+<h5>Collaboration is the practice of working together towards a common goal or purpose. While teams or individuals might collaborate on a one-time basis to achieve a short-term goal, collaboration as a company-wide practice involves creating connections over time. </h5>
+<a href="/registernow" target="_blank" ><i class="fa-solid fa-rocket"></i> Register Now</a>
+</div>
 </div>
 <Footer/>
     </div>

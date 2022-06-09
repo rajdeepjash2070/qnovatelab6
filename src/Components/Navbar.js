@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Home.css"
+import Logo from "./qunovatelablogo2.png"
 const Navbar = () => {
   return (
     <div>
     <nav class="navbar navbar-expand-lg bg-dark navbar-light">
-    <a class="navbar-brand text-light" href="#">Navbar</a>
+    <a class="navbar-brand text-light" href="#"><img src={Logo}/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,7 +22,7 @@ const Navbar = () => {
         <a class="nav-link text-light" href="/ourprograms" style={{fontSize:"25px"}}>Our Programs</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link text-light" href="#" style={{fontSize:"25px"}}>Book Your Free Session Now</a>
+      <a class="nav-link text-light" href="/bookyourfreesession" style={{fontSize:"25px"}}>Book Your Free Session Now</a>
     </li>
        
         

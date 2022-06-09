@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import About from "./Components/About"
 import Ourprograms from "./Components/Ourprograms";
 import Booksession from "./Components/Bookyourfreesession"
+import Blog from "./Components/Blog";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Route path="/about" element={<About/>}/>
    <Route path="/ourprograms" element={<Ourprograms/>}/>
    <Route path="/bookyourfreesession" element={<Booksession/>}/>
+   <Route path="/blog" element={<Blog/>}/>
     </Routes>
     </div>
   );
