@@ -281,7 +281,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='kids-learn kids-bg text-center'>
-<h3>Your Kids will Learn</h3>
+
 <h1 style={{color:"#4200ad"}}>Your Child will Learn</h1>
 <div className='row'>
 <div className='col-md-2'>
@@ -360,7 +360,7 @@ so that students can learn problem-solving strategies and project-based learning
 <div className='col-md-6 our-educators-text' style={{color:"rgb(80, 0, 172)"}}><h1>Our Expert </h1>
 <h5>QNOVATE Labs follows 4-Step Selection Process for confirming teacher.
  Also, our all the teachers are STEM certified. so your children are taught by the top industrial experts. </h5>
- <button type="button" class="btn"><i class="fa-solid fa-rocket-launch"></i>Book Your Free Session Now</button>
+ <button type="button" class="btn m-4"><i class="fa-solid fa-rocket-launch"></i>Book Your Free Session Now</button>
 </div>
 
 </div>
@@ -381,15 +381,17 @@ Tinkering Labs, and Experiential Learning have also garnered significant attenti
 </div>
 
 </div>
-<div className='row'>
+<div className='row m-4'>
 <div className='col-md-6'><img src={Registernowimg}/></div>
 <div className='col-md-6 registernow' style={{marginTop:"40px"}}>
 <h3 className='text-center'>Would you like to corporate collaboration with QNOVATE Labs ?</h3>
 <h5>Collaboration is the practice of working together towards a common goal or purpose. While teams or individuals might collaborate on a one-time basis to achieve a short-term goal, collaboration as a company-wide practice involves creating connections over time. </h5>
-<a href="/collaborate" target="_blank" ><i class="fa-solid fa-rocket"></i> Register Now</a>
+<a href="/collaborate" target="_blank" className='m-4'><i class="fa-solid fa-rocket"></i> Register Now</a>
 </div>
 </div>
+<div className="m-4">
 <Footer/>
+</div>
     </div>
   )
 }
