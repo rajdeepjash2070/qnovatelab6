@@ -1,13 +1,26 @@
-.registration-form{
-    background-color: white;
-   
-    font-size: 23px;
+.registration-form form{
+ 
+
+    font-size: 20px;
   }
   .teacher-form input{
-    font-size: 20px;
+    font-size: 17px;
   
    
   }
+  .side-form{
+    background-color: rebeccapurple;
+    width: 500px;
+padding: 40px;
+border-radius: 10px;
+  }
+  .side-form label{
+    color: white;
+  }
+  .side-form input{
+    margin-top: 5px;
+  }
+
   .teacher-form button{
       font-size: 25px;
   }

@@ -53,10 +53,18 @@ margin-left: 100px;
   width: 800px;
 }
 .navbar{
-  background: linear-gradient(45deg , #7800af, #4200ad);
+  background: linear-gradient(45deg , #e3c1ff,#4200ad, #4200ad);
 
   
 }
+.techforkids h1{
+  color: #4200ad;
+}
+.what-we-offer-text{
+  background-color: #e3c1ff;
+ color: #4c008a;
+}
+
 .navbar a{
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -141,15 +149,17 @@ font-weight: bolder;
     margin-left: 40px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
+ 
   
   .kids-learn .card{
     height: 330px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
    margin-top: 0px;
    background-color: white;
-
+margin-left: 0px;
    width: 90%;
   }
+
   .profile-card-4{
     height: 200px;
     width: 100%;
@@ -200,7 +210,7 @@ height: 100%;
   }
 
   .courses{
-    background-color: rgb(255, 230, 243);
+    background-color: rgb(237, 230, 255);
     padding-bottom: 50px;
   }
   /*#4200ad*/
@@ -221,7 +231,8 @@ height: 100%;
     
   }
   .kids-bg{
-    background-color: rgb(255, 231, 243);
+    background-color: rgb(231, 225, 255);
+    margin-top: 30px;
     padding: 30px 30px 30px 30px;
   }
   .profile-card-2 {
@@ -382,6 +393,7 @@ margin-top: 70px;
 .offer .card{
   height: 500px;
   margin-top: 50px;
+  margin-left: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -466,15 +478,16 @@ position: relative;
 }
 
 .kids-learn .card{
-  height: 330px;
+height: 300px; 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
  margin-top: 30px;
  background-color: white;
 
  
 }
-.kids-learn .col-sm-2{
-  margin-left: 40px;
+.kids-learn .col-md-2{
+
+  margin-left: 30px;
 }
 .our-educators button{
   background-color: #7800af;
@@ -487,15 +500,15 @@ position: relative;
 }
 
 .why-stem{
-  margin-top: 100px;
+  margin-top: 50px;
   color: #7800af;
 }
 .why-stem .row{
-  margin-top: 60px;
+ 
   color: black;
 }
 .why-stem .stem-col{
-margin-top: 130px;
+margin-top: 50px;
 }
 .why-stem button{
   background-color: #7800af;

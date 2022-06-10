@@ -7,20 +7,24 @@ import Datascience from "./datascience-course-icon.jpg"
 import Autocad from "./autocad.jpeg"
 import Blockchain from "./blockchain-course-icon.jpg"
 import Coding from "./coding-course-icon.jpg"
+import Navbar from './Navbar'
+import Footer from './Footer'
 const Ourprograms = () => {
   return (
     <div>
-    <div className="ourprograms-headding text-center">
+    <Navbar/>
+    <div className="ourprograms-headding text-center m-4">
     Our Programs
     </div>
-    <hr/>
+  
     <div className="ourprograms-headding2 text-center">
     School Programs
     </div>
 
     <div className=' EmbeddedSystemRobotics' >
-    <h1 style={{color:"rgb(122, 0, 221)"}} className="text-center"> Embedded System Robotics</h1>
+    <h1 className="text-center"> Embedded System Robotics</h1>
     <img src={Roboticslab} className="img-fluid"/>
+    <div style={{backgroundColor:"rgb(224, 211, 255)"}} className="p-4">
     <h5 className="m-4 text-left">
     The term “Embedded” refers that this intelligent system is an integral part of a huge system with hardware and mechanical parts, to perform some certain role. Also, a robot is a machine that is no longer confined to industrial automation. They are becoming increasingly reliable, affordable, and user-friendly. In addition, they are improving the quality of life. Robots & embedded system is found in almost every electronic device that is used in day-to-day life. The following examples such as video games, mobiles, washing machines, microwaves, household tasks such as vacuum cleaning, and personal assistance. However, any device which measures, stores, manage, controls, calculates, or displays information that must have an embedded system inside. The medical device industry is utilizing controller microchips that translate muscle movements into prosthetic responses. As the demand for these robots grows, so does the need for qualified professionals. 
     </h5>
@@ -36,11 +40,12 @@ const Ourprograms = () => {
     In this laboratory Program, you will learn the basic skills necessary to develop and implement embedded systems that control a typical robot. You will explore embedded computer hardware that interfaces with sensors, embedded software that reads and processes sensor data, and actuators for physical motions. Upon course completion, participants will take home an embedded system development board based on the ARM architecture compatible with the embedded development environment. 
     </h5>
     </div>
+    </div>
     <div className='InternetofThings '>
-    <h1 className='text-center m-4' style={{color:"rgb(122, 0, 221)"}}>Internet of Things (IoT) </h1>
+    <h1 className='text-center'>Internet of Things (IoT) </h1>
 
     <img src={Iot2} className="img-fluid"/>
-
+<div style={{backgroundColor:"rgb(224, 211, 255)"}} className="p-4">
     <h5 className='text-left m-4'>
     The term IoT, or Internet of Things, refers to the collective network of connected physical devices that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. These devices range from ordinary household objects to sophisticated industrial tools. With more than 10 billion connected IoT devices today, experts are expecting this number to grow to 22 billion by 2025. We now have billions of devices connected to the internet. This means everyday devices like toothbrushes, vacuums, cars, and machines can use sensors to collect data and respond intelligently to users. 
     </h5>
@@ -58,31 +63,33 @@ const Ourprograms = () => {
  
     </h5>
     </div>
+    </div>
     <hr/>
     <div className='virtualprograms'>
     <h1 className='text-center m-4' style={{color:"rgb(122, 0, 221)"}}>Virtual Programs </h1>
-    <h1 className='text-center'>Artificial Intelligence & Machine Learning</h1>
+    <h1 className='text-center' id='ai'>Artificial Intelligence & Machine Learning</h1>
     <div className='virtualprogramsimg'>
     <img className="img-fluid" src={Ai2}/>
     </div>
     
-    <h1 className='text-center'>  Data Science</h1>
+    <h1 className='text-center' style={{marginTop:"20px"}} id="ds">  Data Science</h1>
     <div className='virtualprogramsimg' id='datascience'>
     <img className="img-fluid" src={Datascience}/>
     </div>
-    <h1 className='text-center m-4'>  Block Chain</h1>
+    <h1 className='text-center' id='bc' style={{marginTop:"20px"}}>  Block Chain</h1>
     <div className='virtualprogramsimg'>
     <img className="img-fluid" src={Blockchain}/>
     </div>
-    <h1 className='text-center m-4'> Designing Software (AutoDesk)</h1>
+    <h1 className='text-center ' id='dgs' style={{marginTop:"20px"}}> Designing Software (AutoDesk)</h1>
     <div className='virtualprogramsimg'>
     <img className="img-fluid" src={Autocad}/>
     </div>
-    <h1 className='text-center m-4'> Programming Language</h1>
+    <h1 className='text-center' id='pl' style={{marginTop:"20px"}}> Programming Language</h1>
     <div className='virtualprogramsimg'>
     <img className="img-fluid" src={Coding}/>
     </div>
     </div>
+    <Footer/>
     </div>
   )
 }

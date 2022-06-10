@@ -2,92 +2,10 @@ import React, { useState } from "react";
 import axios from "axios"
 import { useNavigate } from 'react-router-dom'
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 function App() {
   /*
-  const [inputs,setInputs]=useState({
-     hospitalname:"",
-     adminname:"",
-     password:"",
-     confirmpassword:"",
-  description:"",
-  totalbeds:"",
-  occupiedbeds:"",
-  state:"",
-  district:"",
-  emergencymedicinekit:"",
-  oxygencylider:"",
-  description:"",
-  numberofambulance:"",
-  numberoficu:"",
-  ot:"",
-  bloodbank:"",
-  covidbeds:"",
-  denguebeds:"",
-  malariabeds:"",
-  plasmabank:"",
-  numberofbeds:"",
-  adress:"",
-  contactnumber:"",
- // date:"",
- // time:"",
-  available:false,
- 
- 
- 
-    });
-    //state , district,emergencymedicinekit,oxygencylider, description, numberofambulance,numberoficu,ot,bloodbank,covidbeds,denguebeds,malariabeds,plasmabank,numberofbeds
-    const [checked,setChecked]=useState(false);
-    const handleChange=(e)=>{
-      setInputs((prevState)=>({
-  ...prevState,
-  [e.target.name]:e.target.value
-      }))
-    }
-    const sendRequest=async()=>{
-      const currdate=new Date().toLocaleDateString();
-      const currtime=new Date().toLocaleTimeString();
-      await axios.post("http://localhost:8000/hospitals",{
-       hospitalname:String(inputs.hospitalname),
-       adminname:String(inputs.adminname),
-       password:String(inputs.password),
-       confirmpassword:String(inputs.confirmpassword),
-       totalbeds:String(inputs.totalbeds),
-       occupiedbeds:String(inputs.occupiedbeds),
-        state:String(inputs.state),
-        district:String(inputs.district),
-        emergencymedicinekit:String(inputs.emergencymedicinekit),
-        oxygencylider:String(inputs.oxygencylider),
-        description:String(inputs.description),
-      numberofambulance:String(inputs.numberofambulance),
-      numberoficu:String(inputs.numberoficu),
-      ot:String(inputs.ot),
-      bloodbank:String(inputs.bloodbank),
-      covidbeds:String(inputs.covidbeds),
-      denguebeds:String(inputs.denguebeds),
-      malariabeds:String(inputs.malariabeds),
-      plasmabank:String(inputs.plasmabank),
-      numberofbeds:String(inputs.numberofbeds),
-      adress:String(inputs.adress),
-      contactnumber:String(inputs.contactnumber),
-     date:String(currdate),
-     time:String(currtime),
-        available:Boolean(checked)
-      }).then(res=>res.data);
-    }
-    //state , district,emergencymedicinekit,oxygencylider, description, numberofambulance,numberoficu,ot,bloodbank,covidbeds,denguebeds,malariabeds,plasmabank,numberofbeds
-    const handleSubmit=(e)=>{
-      e.preventDefault();
-     
-      sendRequest().then(()=>{
-       if((inputs.password)==(inputs.confirmpassword)){
-         history('/xxxx9883')
-       }
-       else{
-         alert("PassWord is wrong")
-       }
-      })
-    
-    }
+  
   */
 
   const [inputs, setInputs] = useState({
@@ -277,7 +195,7 @@ function App() {
 
       {/* TEACHERS FORM ------------------------------------------------*/}
      
-      
+      <Footer/>
   </div>
   );
 }

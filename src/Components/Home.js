@@ -147,13 +147,13 @@ const Home = () => {
   
  </div>
 <h1 style={{color:"#7800af"}} className="text-center">What We Offer</h1>
-<h5 style={{color:"black"}} className="text-center">QNOVATE Labs offers an integrated Science, Technology, Engineering and Math (STEM) program based on future technology for school segment 
+<h5 className="text-center what-we-offer-text p-4">QNOVATE Labs offers an integrated Science, Technology, Engineering and Math (STEM) program based on future technology for school segment 
 that focus  on technical-world. Also, we are providing physical contact with students, 
 so that students can learn problem-solving strategies and project-based learning. QNOVATE Labs providing an immersive learning experience. 
 </h5>
 <div className='offer row'>
-<div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div className='col-sm-4 '>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Atl} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">ATAL TINKERING LAB (ATL)</h5>
@@ -165,7 +165,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Roboticslab} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">STEM and ROBOTICS Lab </h5>
@@ -178,7 +178,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Iot2} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Internet of Things(IoT) </h5>
@@ -191,7 +191,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Autocad} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">3D Printing  </h5>
@@ -203,7 +203,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Designthinking} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Design Thinking  </h5>
@@ -218,7 +218,7 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Ai2} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">AI Connect (Artificial Intelligence)   </h5>
@@ -234,7 +234,7 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Physicalattention} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">1:1 physical Attention </h5>
@@ -249,7 +249,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Kit} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">QNOVATE Lab KIT pro  </h5>
@@ -264,7 +264,7 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='col-sm-4'>
-<div class="card" style={{width:"20rem"}}>
+<div class="card" style={{width:"24rem"}}>
   <img class="card-img-top" src={Certificate} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Certificate  </h5>
@@ -284,51 +284,51 @@ so that students can learn problem-solving strategies and project-based learning
 <h3>Your Kids will Learn</h3>
 <h1 style={{color:"#4200ad"}}>Your Child will Learn</h1>
 <div className='row'>
-<div className='col-sm-2'>
+<div className='col-md-2'>
 <div class="card" >
   <img class="card-img-top" src={Teamwork} alt="Card image cap"/>
   <div class="card-body">
-    <p class="card-text" style={{fontSize:"30px"}}>Teamwork</p>
+    <p class="card-text" style={{fontSize:"25px"}}>Teamwork</p>
   </div>
 </div>
 
 </div>
 
-<div className='col-sm-2'>
+<div className='col-md-2'>
 <div class="card" >
   <img class="card-img-top" src={Advanced} alt="Card image cap"/>
   <div class="card-body">
-    <p class="card-text" style={{fontSize:"30px"}}>Advanced Technologies</p>
+    <p class="card-text" style={{fontSize:"25px"}}>Advanced Technologies</p>
   </div>
 </div>
 
 </div>
 
-<div className='col-sm-2'>
+<div className='col-md-2'>
 <div class="card" >
   <img class="card-img-top" src={Logic} alt="Card image cap"/>
   <div class="card-body">
-    <p class="card-text" style={{fontSize:"30px"}}>Logic</p>
+    <p class="card-text" style={{fontSize:"25px"}}>Logic</p>
   </div>
 </div>
 
 </div>
 
-<div className='col-sm-2' >
+<div className='col-md-2 ' >
 <div class="card">
   <img class="card-img-top" src={Connectivity} alt="Card image cap"/>
   <div class="card-body">
-    <p class="card-text" style={{fontSize:"30px"}}>Connectivity</p>
+    <p class="card-text" style={{fontSize:"25px"}}>Connectivity</p>
   </div>
 </div>
 
 </div>
 
-<div className='col-sm-2' >
+<div className='col-md-2' >
 <div class="card">
   <img class="card-img-top" src={Creative} alt="Card image cap"/>
   <div class="card-body">
-    <p class="card-text" style={{fontSize:"30px"}}>Creative Thinking</p>
+    <p class="card-text" style={{fontSize:"25px"}}>Creative Thinking</p>
   </div>
 </div>
 
@@ -339,19 +339,19 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='techforkids row' style={{marginTop:"50px"}}>
-<h1 className='text-center'>Why Technology For Kids? </h1>
+<h1 className='text-center p-4' style={{backgroundColor:"rgb(236, 203, 255)"}}>Why Technology For Kids? </h1>
     <img src={WhyTechforkids} className="col-sm-6" alt="..."/>
     <div className="provide-text col-sm-6">
     
     
-    <h4 className='text-center'>” Your child can learn logic, creative thinking, experiment “</h4>
-    <p>
+    <h3 className='text-center' style={{fontWeight:"bolder"}}>” Your child can learn logic, creative thinking, experiment “</h3>
+    <h5>
     In 1968, George Land conducted a research study to test the creativity of 1,600 children ranging in ages from
      three-to-five years old who were enrolled in a Head Start program. This was the same creativity test he devised
       for NASA to help select innovative engineers and scientists. Technology is a fun tool for kids to create their
        curiosity, curiosity to ask questions, imagination to explore - 
     features that will dispensing any child well in almost any career, in every hobby and life. 
-    </p>
+    </h5>
     </div>
     </div>
 
@@ -365,21 +365,18 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 <div className='why-stem text-center'>
-<div>
+<div className='why-stem-header p-4'>
 <h1  style={{fontWeight:600}}>Why  STEM Education</h1>
-<h4>Science, Technology, Engineering, and Math - STEM is a top priority for educators today. Century Skills, 
-Design Thinking, Digital Technologies, Maker Space, Tinkering Labs, 
-and Experiential Learning have also garnered significant attention from the global education community.</h4>
 </div>
 <div className='row'>
 <div className='col-sm-6'><img src={Stem} className="img-fluid"/></div>
 
-<div className='col-sm-6 stem-col'>
-<h3>Would you like to corporate collaboration with QNOVATE Labs ? </h3>
-<h5>Collaboration is the practice of working together towards a common goal or purpose. While teams or individuals
- might collaborate on a one-time basis
- to achieve a short-term goal, collaboration as a company-wide practice involves creating connections over time.  </h5>
- <button className='btn'><i class="fa-solid fa-pen-to-square"></i>Register Now</button>
+<div className='col-sm-6 stem-col p-4'>
+<h4 className='p-4 text-center'>
+Science, Technology, Engineering, and Math - STEM is a top priority for educators today. Century Skills, Design Thinking, Digital Technologies, Maker Space, 
+Tinkering Labs, and Experiential Learning have also garnered significant attention from the global education community.
+</h4>
+
 </div>
 </div>
 
@@ -389,7 +386,7 @@ and Experiential Learning have also garnered significant attention from the glob
 <div className='col-md-6 registernow' style={{marginTop:"40px"}}>
 <h3 className='text-center'>Would you like to corporate collaboration with QNOVATE Labs ?</h3>
 <h5>Collaboration is the practice of working together towards a common goal or purpose. While teams or individuals might collaborate on a one-time basis to achieve a short-term goal, collaboration as a company-wide practice involves creating connections over time. </h5>
-<a href="/registernow" target="_blank" ><i class="fa-solid fa-rocket"></i> Register Now</a>
+<a href="/collaborate" target="_blank" ><i class="fa-solid fa-rocket"></i> Register Now</a>
 </div>
 </div>
 <Footer/>

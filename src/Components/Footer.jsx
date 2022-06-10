@@ -38,10 +38,11 @@ function Footer() {
                     <div class=" col-sm-4 col-md  col-6 col">
                         <h5 class="headin5_amrc col_white_amrc pt2">Follow Us</h5>
 
-                        <ul class="footer_ul_amrc">
-                            <li><a href='#'>Youtube</a></li>
-                            <li><a href='#'>Facebook</a></li>
-                            <li><a href='#'>instagram</a></li>
+                        <ul class="footer_ul_amrc m-4">
+                        <li class="first-li"><a href="/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="/"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="/"><i class="fab fa-instagram"></i></a></li>
                         </ul>
 
                     </div>
@@ -60,16 +61,14 @@ function Footer() {
                 <p class="text-center">Copyright @ Fluidex Technologies Pvt.Ltb @ 2022. All Rights Reserved. Made with Love In India</p>
 
                 <ul class="social_footer_ul">
-                    <li class="first-li"><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="/"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="/"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+                  
                 </ul>
 
             </div>
 
-        </footer >
-    </div >)
+        </footer>
+    </div>
+    )
 
 }
 
