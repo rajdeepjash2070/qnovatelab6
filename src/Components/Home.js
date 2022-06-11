@@ -80,7 +80,7 @@ const Home = () => {
     <div className="provide-text col-sm-6">
     
     <h2 className='text-center'>Technology For Kids</h2>
-    <h4 className='text-center'>Create a Passion for Technology!</h4>
+    <h4 className='text-center p-4'>Create a Passion for Technology!</h4>
     <p>Kids have a natural curiosity that lends itself to
     science, technology, math, and engineering. At
     technology For Kids, we inspire kids to build on their
@@ -152,8 +152,8 @@ that focus  on technical-world. Also, we are providing physical contact with stu
 so that students can learn problem-solving strategies and project-based learning. QNOVATE Labs providing an immersive learning experience. 
 </h5>
 <div className='offer row'>
-<div className='col-sm-4 '>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4 '>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Atl} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">ATAL TINKERING LAB (ATL)</h5>
@@ -164,8 +164,8 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 </div>
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Roboticslab} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">STEM and ROBOTICS Lab </h5>
@@ -177,8 +177,8 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 </div>
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Iot2} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Internet of Things(IoT) </h5>
@@ -190,8 +190,8 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 </div>
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Autocad} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">3D Printing  </h5>
@@ -202,8 +202,8 @@ so that students can learn problem-solving strategies and project-based learning
 </div>
 
 </div>
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Designthinking} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Design Thinking  </h5>
@@ -217,8 +217,8 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Ai2} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">AI Connect (Artificial Intelligence)   </h5>
@@ -233,8 +233,8 @@ so that students can learn problem-solving strategies and project-based learning
 
 </div>
 
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Physicalattention} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">1:1 physical Attention </h5>
@@ -248,8 +248,8 @@ so that students can learn problem-solving strategies and project-based learning
 
 
 </div>
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Kit} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">QNOVATE Lab KIT pro  </h5>
@@ -263,8 +263,8 @@ so that students can learn problem-solving strategies and project-based learning
 
 
 </div>
-<div className='col-sm-4'>
-<div class="card" style={{width:"24rem"}}>
+<div className='col-sm-4 p-4'>
+<div class="card" style={{width:"20rem"}}>
   <img class="card-img-top" src={Certificate} alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title">Certificate  </h5>
@@ -341,7 +341,7 @@ so that students can learn problem-solving strategies and project-based learning
 <div className='techforkids row' style={{marginTop:"50px"}}>
 <h1 className='text-center p-4' style={{backgroundColor:"rgb(236, 203, 255)"}}>Why Technology For Kids? </h1>
     <img src={WhyTechforkids} className="col-sm-6" alt="..."/>
-    <div className="provide-text col-sm-6">
+    <div className="provide-text col-sm-6 p-4">
     
     
     <h3 className='text-center' style={{fontWeight:"bolder"}}>” Your child can learn logic, creative thinking, experiment “</h3>
@@ -389,7 +389,7 @@ Tinkering Labs, and Experiential Learning have also garnered significant attenti
 <a href="/collaborate" target="_blank" className='m-4'><i class="fa-solid fa-rocket"></i> Register Now</a>
 </div>
 </div>
-<div className="m-4">
+<div>
 <Footer/>
 </div>
     </div>
