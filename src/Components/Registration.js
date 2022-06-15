@@ -15,9 +15,6 @@ function Registration() {
     address:"",
     message:"",
 
-
-
-
   });
 
   const sendRequest = async () => {
@@ -61,8 +58,8 @@ function Registration() {
       <h2 className="text-center free-session ">
         Let’s Build a Strong Business Together<span className="contactus-form">(Contact Us <strong>Now!</strong></span>)
       </h2>
-      <div className="container teacher-form">
-        <div className="row">
+      <div className="container teacher-form d-flex justify-content-center">
+        <div className="row ">
           <div className="col-md-6 side-img">
             <img src={require("./register.webp")} alt="reg pic" />
           </div>
@@ -102,7 +99,7 @@ function Registration() {
                 />
               </div>
               <div className="form-group">
-                <label for="emailid">emailid Id:</label>
+                <label for="emailid">email Id:</label>
                 <input
                   type="text"
                   name="emailid"
@@ -164,7 +161,7 @@ function Registration() {
                 ></textarea>
               </div>
              
-              <button type="submit" className="btn btn-primary submit m-4">
+              <button type="submit" className="btn btn-primary submit m-2">
                 Submit
               </button>
             </form>
